@@ -25,5 +25,17 @@ public class Main {
             System.out.println("Сегодня пятница, " + dataFistFriday + " число. Необходимо подготовить отчет.");
             dataFistFriday = dataFistFriday + 7;
         }
+        //Задание 3
+        System.out.println("============================ Задание 3 =====================");
+        int yearToday = 2022; // текущий год
+        int yearLast = yearToday - 200; // текущая дата - 200 лет
+        int yearPast = yearToday + 100; // текущая дата + 100 лет
+        for ( i = 0; i<= yearPast; i = i + 79)
+        {
+            if (i >= yearLast)
+            {
+            System.out.println(i);
+            }
+        }
     }
 }
